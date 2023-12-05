@@ -355,5 +355,21 @@ namespace _29_30_CuaHangSach
         {
 
         }
+
+        private void cboPhai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+
+        private void cboPhai_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboPhai_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
